@@ -1,0 +1,64 @@
+
+.form-group {
+    padding: 1em;
+    margin: 1em;
+  }
+  input[type="file"] {
+    outline: 0;
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+  }
+  .label {
+    width: 120px;
+    border: 2px dashed grey;
+    border-radius: 5px;
+    display: block;
+    padding: 1.2em;
+    transition: border 300ms ease;
+    cursor: pointer;
+    text-align: center;
+  }
+  .label i {
+    display: block;
+    font-size: 42px;
+    padding-bottom: 16px;
+  }
+  .label i,
+  .label .title {
+    color: grey;
+    transition: 200ms color;
+  }
+  .label:hover {
+    border: 2px solid #000;
+  }
+  .label:hover i,
+  .label:hover .title {
+    color: #000;
+  }
+body {
+    background-color: #fff;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color:#272727;
+    padding-top:60px;
+}
+.button{
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #fcde29;
+    padding: 16px 33px 16px 33px;
+    margin-left: 10px;
+    font-size:16px;
+    font-weight: 700px;
+    border:none;
+}
+
+.container {
+    max-width: 1107px;
+    margin: auto;  /*Занимает все доступное пространство  */
+}
+.form {
+    max-width: 300px;
+    margin: auto;
+}

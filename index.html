@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1">
+        <title> Загрузка json</title> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+        <body>
+
+            <section class="delivery">
+                <div class="container">
+                    <form method="POST" enctype="multipart/form-data" action="/cgi-bin/tutor5.py" class="form delivery__form">
+                      <div class="example-1">
+                        <div class="form-group">
+                            <h1  class="section-title ">Загрузить json </h1>
+                            <label class="label">
+                             <i class="material-icons">file</i>
+                             <span class="title">Добавить файл</span>
+                             <input type="file" name="myFile" textDesc = "Файл">
+                            </label>
+                        </div>
+                     </div>
+                        <div class="button-block">
+                            <button type="submit" class="button">отправить заявку </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </body>
+</html>
